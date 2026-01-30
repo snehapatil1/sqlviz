@@ -98,7 +98,3 @@ pyproject.toml
 ```bash
 pytest tests/
 ```
-
-## License
-
-MIT
