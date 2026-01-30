@@ -98,3 +98,14 @@ pyproject.toml
 ```bash
 pytest tests/
 ```
+
+![Demo](assets/sqlviz.gif)
+
+## Final Notes
+
+This project is a work-in-progress and a fun way for me to learn and explore. Feel free to poke around.
+
+Liked what you saw? A ⭐ is the digital high‑five!
+
+Cheers,  
+Sneha

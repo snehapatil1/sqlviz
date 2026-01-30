@@ -60,8 +60,14 @@ st.markdown(
         letter-spacing: 0.01em;
         width: 100%;
     }
-    /* SQL Query text area - no borders */
-    .stTextArea textarea, .stTextArea label, .stTextArea div {
+    /* SQL Query text area - no borders; label same color as Visualize button (#c4b5fd) */
+    .stTextArea label,
+    .stTextArea label p,
+    [data-testid="stTextArea"] label,
+    [data-testid="stTextArea"] label p {
+        color: #c4b5fd !important;
+    }
+    .stTextArea textarea, .stTextArea div {
         background-color: rgba(30, 30, 40, 0.8) !important;
         color: #e2e8f0 !important;
         border-radius: 12px;
